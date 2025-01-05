@@ -9,7 +9,7 @@ const config: DocsThemeConfig = {
         alt="Logo"
         style={{
           height: '40px',
-          borderRadius: '15px',
+          borderRadius: '10px',
           left: '10px',
           position: 'absolute',
           top: '50%',
@@ -20,14 +20,14 @@ const config: DocsThemeConfig = {
     </div>
   ),
   project: {
-    link: 'https://github.com/shuding/nextra-docs-template',
+    link: 'https://roblox.com/',
   },
   chat: {
     link: 'https://discord.com',
   },
   docsRepositoryBase: 'https://github.com/shuding/nextra-docs-template',
   footer: {
-    text: 'Nextra Docs Template',
+    text: 'Serenity Docs (Powered with Vercel, Template by https://nextra.site/)',
   },
 }
 
