@@ -10,13 +10,13 @@ const config: DocsThemeConfig = {
         style={{
           height: '40px',
           borderRadius: '15px',
-          left: '0',
+          left: '10px',
           position: 'absolute',
           top: '50%',
-          transform: 'translateY(-50%);', // Add this line to set the border radius
+          transform: 'translateY(-50%);', // Add this line to set the border radius  
         }}
       />
-      <span>Serenity</span>
+      <span>Serenity </span>
     </div>
   ),
   project: {
