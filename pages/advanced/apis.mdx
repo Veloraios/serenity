@@ -1,0 +1,32 @@
+# APIs
+
+In this Page we will feature the APIs, which powered Serenity and made the most important features work.
+
+import { Table, Td, Th, Tr } from 'nextra/components'
+ 
+<Table>
+  <thead>
+    <Tr>
+      <Th>Tools</Th>
+      <Th>What They Did</Th>
+    </Tr>
+  </thead>
+  <tbody>
+    <Tr>
+      <Td>NabzClan Signing Api</Td>
+      <Td>NabzClan Signing Api made it possible for Serenity to Sign/Configure your .ipa files</Td>
+    </Tr>
+       <Tr>
+      <Td>NabzClan Uploading Api</Td>
+      <Td>NabzClan Uploading Api made it possible for Serenity to Sign/Configure your .ipa files and this is the most important api because it uploads the ipa file, certificates and plists.</Td>
+    </Tr>
+        <Tr>
+      <Td>URL Checker API</Td>
+      <Td>Made iPA Configuring possible so when you sign an .ipa file and configure it, then it doesnt sign the modified iPA it signs the unmodified iPA and after it signs it checks the Download URL 1-3 times till there is one with a .plist inside and it takes the Download URL from there and it modifies the .plist so that it uses your modifications then it uploads and it returns you an itms-services link so you can install it. </Td>
+    </Tr>
+      <Tr>
+      <Td>Web APIs</Td>
+      <Td>There are inbuilt APIs that are pretty useful for Serenity, 1. Local Storage; Saves Repos, Certificates and Settings so you dont lose them when you open the app again, it also lets you share repos/certificates/settings with other people. 2. Notification Api: This makes sending notifications to your device possible, it asks for permission first. there are way more but it takes to long to say all.</Td>
+    </Tr>
+  </tbody>
+</Table>
