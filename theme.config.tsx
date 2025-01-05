@@ -9,7 +9,11 @@ const config: DocsThemeConfig = {
         alt="Logo"
         style={{
           height: '40px',
-          borderRadius: '15px', // Add this line to set the border radius
+          borderRadius: '15px',
+          left: '0',
+          position: 'absolute',
+          top: '50%',
+          transform: 'translateY(-50%);' // Add this line to set the border radius
         }}
       />
       <span>Serenity</span>
