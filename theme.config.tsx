@@ -23,7 +23,7 @@ const config: DocsThemeConfig = {
     link: 'https://roblox.com/',
   },
   chat: {
-    link: 'https://discord.com',
+    link: 'https://discord.com/invite/c2yaGH5aWe',
   },
   docsRepositoryBase: 'https://github.com/shuding/nextra-docs-template',
   footer: {
