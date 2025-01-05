@@ -1,5 +1,6 @@
 import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
+import { useRouter } from 'next/router'
 
 const config: DocsThemeConfig = {
   logo: (
@@ -13,10 +14,9 @@ const config: DocsThemeConfig = {
           left: '10px',
           position: 'absolute',
           top: '50%',
-          transform: 'translateY(-50%);', // Add this line to set the border radius  
+          transform: 'translateY(-50%)',
         }}
       />
-      
     </div>
   ),
   project: {
@@ -28,6 +28,12 @@ const config: DocsThemeConfig = {
   docsRepositoryBase: 'https://github.com/shuding/nextra-docs-template',
   footer: {
     text: 'Serenity Docs (Powered with Vercel, Template by https://nextra.site/)',
+  },
+  useNextSeoProps() {
+    const { asPath } = useRouter()
+    return {
+      titleTemplate: asPath === '/' ? '%s' : '%s', // Remove "Nextra" from all pages
+    }
   },
 }
 
