@@ -16,7 +16,7 @@ const config: DocsThemeConfig = {
           transform: 'translateY(-50%);', // Add this line to set the border radius  
         }}
       />
-      <span>Serenity </span>
+      
     </div>
   ),
   project: {
