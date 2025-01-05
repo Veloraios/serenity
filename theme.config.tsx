@@ -13,7 +13,7 @@ const config: DocsThemeConfig = {
           left: '0',
           position: 'absolute',
           top: '50%',
-          transform: 'translateY(-50%);' // Add this line to set the border radius
+          transform: 'translateY(-50%);', // Add this line to set the border radius
         }}
       />
       <span>Serenity</span>
