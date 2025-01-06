@@ -1,11 +1,14 @@
 {
   "index": "Serenity",
   "features": "Features",
-  "repos": "Repos",
+  "repos": "Supported Repos",
   "how-serenity-was-made": "How Serenity Was Made",
-  "about": {
-    "title": "About",
-    "type": "page"
+ 
+  "Credits": {
+    "title": "Support ↗",
+    "type": "page",
+    "href": "https://ko-fi.com/SerenityiOS",
+    "newWindow": true
   },
   "contact": {
     "title": "Contact ↗",
