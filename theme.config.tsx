@@ -40,7 +40,7 @@ const config: DocsThemeConfig = {
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta property="og:title" content="Serenity" />
       <meta property="og:description" content="Official Serenity Download Page & Documentation" />
-      <meta property="og:image" content="/banner.webp" />
+      <meta property="og:image" content="/serenity.webp" />
     </>
   )
 }
