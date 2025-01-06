@@ -33,13 +33,6 @@ const config: DocsThemeConfig = {
     const { asPath } = useRouter()
     return {
       titleTemplate: asPath === '/' ? '%s' : '%s', // Remove "Nextra" from all pages
-      description: '', // Remove description meta tag
-      openGraph: {
-        description: '', // Remove OpenGraph description
-      },
-      twitter: {
-        description: '', // Remove Twitter description
-      },
     }
   },
 }
