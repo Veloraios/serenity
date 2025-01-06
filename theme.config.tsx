@@ -35,6 +35,14 @@ const config: DocsThemeConfig = {
       titleTemplate: asPath === '/' ? '%s' : '%s', // Remove "Nextra" from all pages
     }
   },
+  head: (
+    <>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta property="og:title" content="Serenity" />
+      <meta property="og:description" content="Official Serenity Download Page & Documentation" />
+      <meta property="og:image" content="/banner.webp" />
+    </>
+  )
 }
 
 export default config
